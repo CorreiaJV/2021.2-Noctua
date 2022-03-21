@@ -11,6 +11,3 @@ emailController.enviaEmail(req,res);
 router.get("/emails",(req:Request, res:Response) =>{
     emailController.getEmails(req,res);
     })
-
-
-export default router;
