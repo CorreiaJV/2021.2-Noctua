@@ -22,4 +22,6 @@ const databaseConnect = async () => {
 
 export default databaseConnect;
 
-#Mongo
+/*Mongo
+
+#mongoimport --host=127.0.0.1 -d megasena -c results --type csv --file contracheque.csv --headerline
